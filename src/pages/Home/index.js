@@ -1,12 +1,13 @@
 import Header from "pages/Header";
-import "./Home.css";
+import styles from "./Home.module.css";
+import Footer from "pages/Footer";
 
 const Home = () => {
   return (
-    <div>
+    <>
       <Header />
-      <h1>Olá mundo com rotas</h1>
-    </div>
+      <Footer />
+    </>
   );
 };
 
