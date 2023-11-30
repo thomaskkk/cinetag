@@ -1,13 +1,13 @@
 :root {
-  --fonte: "Monteserrat", sans-serif;
-  --branco: #ffffff;
-  --preto: #000000;
-  --cinza: #e2e2e2;
+  --font: "Monteserrat", sans-serif;
+  --white: #ffffff;
+  --black: #000000;
+  --gray: #e2e2e2;
 }
 
 body {
   margin: 0;
-  font-family: var(--fonte);
+  font-family: var(--font);
   background-color: var(--branco);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
