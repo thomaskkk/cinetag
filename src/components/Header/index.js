@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import logo from "./logo.png";
 import styles from "./Header.module.css";
-import HeaderLink from "pages/HeaderLink";
+import HeaderLink from "components/HeaderLink";
 
 const Header = () => {
   return (
@@ -11,7 +11,7 @@ const Header = () => {
       </Link>
       <nav>
         <HeaderLink url="./">Home</HeaderLink>
-        <HeaderLink url="./Favoritos">Favoritos</HeaderLink>
+        <HeaderLink url="./favorites">Favoritos</HeaderLink>
       </nav>
     </header>
   );
