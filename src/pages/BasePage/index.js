@@ -1,6 +1,5 @@
 import Header from "components/Header";
 import FavoritesProvider from "context/Favorites";
-import Container from "components/Container";
 import { Outlet } from "react-router-dom";
 import Footer from "components/Footer";
 
@@ -9,9 +8,7 @@ const BasePage = () => {
     <main>
       <Header />
       <FavoritesProvider>
-        <Container>
-          <Outlet />
-        </Container>
+        <Outlet />
       </FavoritesProvider>
       <Footer />
     </main>
